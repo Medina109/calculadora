@@ -1,28 +1,33 @@
-var n1=0,n2=0
+var n1=0,n2=0,resultado=0
 function suma(){
 	         
-	         n1=document.getElementById("N1").
-	         n2=document.getElementById("N2").
-	         document.getElementById("hola").innerHTML=n1+n2
+	         var n1=document.getElementById("N1").value; 
+	         var n2=document.getElementById("N2").value; 
+	         var resultado=parseInt(n1,10)+parseInt(n2,10)
+	         document.getElementById("resultado").value=resultado;
+
 }
-var n1=0,n2=0
+var n1=0,n2=0,resultado=0
 function resta() {
 
-             n1=document.getElementById("N1").
-	         n2=document.getElementById("N2").
-	         document.getElementById("hola").innerHTML=n1-n2
+             var n1=document.getElementById("N1").value; 
+	         var n2=document.getElementById("N2").value; 
+	         var resultado=parseInt(n1,10)-parseInt(n2,10)
+	         document.getElementById("resultado").value=resultado;
 }
-var n1=0, n2=0
+var n1=0, n2=0, resultado=0
 function multiplica(){
 
-	         n1=document.getElementById("N1").
-	         n2=document.getElementById("N2").
-	         document.getElementById("hola").innerHTML=n1*n2
+	         var n1=document.getElementById("N1").value; 
+	         var n2=document.getElementById("N2").value; 
+	         var resultado=parseInt(n1,10)*parseInt(n2,10)
+	         document.getElementById("resultado").value=resultado;
 }
-var n1=0, n2=0
+var n1=0, n2=0, resultado=0
 function divide(){
 
-	         n1=document.getElementById("N1").
-	         n2=document.getElementById("N2").
-	         document.getElementById("hola").innerHTML=n1/n2
+	         var n1=document.getElementById("N1").value; 
+	         var n2=document.getElementById("N2").value; 
+	         var resultado=parseInt(n1,10)/parseInt(n2,10)
+	         document.getElementById("resultado").value=resultado;
 }
